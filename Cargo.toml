@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "guessing_game",
+    "variables",
+    "functions",
+    "branches",
+    "ownership",
+    "slices",
+    "structs",
+    "enums",
+]
