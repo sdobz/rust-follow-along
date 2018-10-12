@@ -1,7 +1,11 @@
 fn main() {
     let word_soup = String::from("This is word soup");
 
-    println!("The first word in '{}' is at index {}", word_soup, first_word_loc(&word_soup));
+    println!(
+        "The first word in '{}' is at index {}",
+        word_soup,
+        first_word_loc(&word_soup)
+    );
 
     let w = &word_soup[0..4]; // or [0..=3]
     println!("Retrieved manually: {}", w);

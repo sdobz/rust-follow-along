@@ -16,7 +16,7 @@ impl IpAddr {
         match self {
             IpAddr::V4(v0, v1, v2, v3) => {
                 println!("V4 {}.{}.{}.{}", v0, v1, v2, v3);
-            },
+            }
             IpAddr::V6(addr) => {
                 println!("V6 {}", addr);
             }
@@ -43,22 +43,20 @@ fn value_in_cents(coin: &Coin) -> u32 {
         Coin::Penny => 1,
         Coin::Nickel => 5,
         Coin::Dime => 10,
-        Coin::Quarter(state) => {
-            match state {
-                Some(state) => {
-                    println!("Quarter from {:?}!", state);
-                    26
-                }
-                None => 25,
+        Coin::Quarter(state) => match state {
+            Some(state) => {
+                println!("Quarter from {:?}!", state);
+                26
             }
-        }
+            None => 25,
+        },
     }
 }
 
 fn optional_plus_one(x: Option<i32>) -> Option<i32> {
     match x {
         Some(x) => Some(x + 1),
-        None => None
+        None => None,
     }
 }
 
@@ -86,7 +84,10 @@ fn main() {
     let optional_spooky_six = optional_plus_one(Some(6));
     let none_plus_one = optional_plus_one(None);
 
-    println!("Optional spooky six {:?} none+1 {:?}", optional_spooky_six, none_plus_one);
+    println!(
+        "Optional spooky six {:?} none+1 {:?}",
+        optional_spooky_six, none_plus_one
+    );
 
     if let Some(6) = optional_spooky_six {
         println!("The six isn't that spooky");

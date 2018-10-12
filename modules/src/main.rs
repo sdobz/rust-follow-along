@@ -11,7 +11,7 @@ pub mod a {
 enum TrafficLight {
     Red,
     Yellow,
-    Green
+    Green,
 }
 
 use self::TrafficLight::{Red, Yellow};
