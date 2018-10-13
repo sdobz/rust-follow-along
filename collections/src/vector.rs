@@ -43,7 +43,7 @@ fn demo_init() {
     }
     // let unreachable_code = &v[100]; // causes panic
 
-    let mut v2 = vec![1,2,3];
+    let mut v2 = vec![1, 2, 3];
     let _first = &v2[0];
 
     v2.push(4); // book says this shouldnt work, push borrows mutably and _first is immutable
@@ -68,11 +68,7 @@ enum SpreadsheetCell {
 fn demo_multitype_vector() {
     use self::SpreadsheetCell::*;
 
-    let row = vec![
-        Int(3),
-        Text(String::from("blu")),
-        Float(10.12),
-    ];
+    let row = vec![Int(3), Text(String::from("blu")), Float(10.12)];
 
     for cell in &row {
         match cell {

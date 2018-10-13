@@ -17,7 +17,7 @@ pub fn demo() {
     let string_instance = String::from(" can happen");
     let s2 = s + &string_instance;
     // note: s has been moved to s2
-    
+
     let tic = String::from("tic");
     let tac = String::from("tac");
     let toe = String::from("toe");
@@ -29,17 +29,21 @@ pub fn demo() {
     let len = cyrillic.len();
     let chars = cyrillic.chars().count();
 
-    println!("You'd expect {}.len() to be {} long but it's actually {} (unicode scalars, bytes)", cyrillic, chars, len);
+    println!(
+        "You'd expect {}.len() to be {} long but it's actually {} (unicode scalars, bytes)",
+        cyrillic, chars, len
+    );
 }
 
 pub fn swap_case(subject: &str) -> String {
-    subject.chars().filter_map(
-        |c| {
-        if c.is_lowercase() {
+    subject
+        .chars()
+        .filter_map(|c| {
+            if c.is_lowercase() {
                 c.to_uppercase().next()
             } else {
                 c.to_lowercase().next()
             }
-        }
-    ).collect()
+        })
+        .collect()
 }
