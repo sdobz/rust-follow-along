@@ -11,4 +11,5 @@ members = [
     "enums",
     "modules",
     "collections",
+    "errors",
 ]
