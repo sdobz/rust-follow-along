@@ -4,19 +4,62 @@ version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "branches"
+name = "ch01_getting_started"
 version = "0.1.0"
 
 [[package]]
-name = "collections"
+name = "ch02_guessing_game"
+version = "0.1.0"
+dependencies = [
+ "rand 0.3.22 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "ch03_variables"
 version = "0.1.0"
 
 [[package]]
-name = "enums"
+name = "ch04_functions"
 version = "0.1.0"
 
 [[package]]
-name = "errors"
+name = "ch05_branches"
+version = "0.1.0"
+
+[[package]]
+name = "ch06_ownership"
+version = "0.1.0"
+
+[[package]]
+name = "ch07_slices"
+version = "0.1.0"
+
+[[package]]
+name = "ch08_structs"
+version = "0.1.0"
+
+[[package]]
+name = "ch09_enums"
+version = "0.1.0"
+
+[[package]]
+name = "ch10_modules"
+version = "0.1.0"
+
+[[package]]
+name = "ch11_collections"
+version = "0.1.0"
+
+[[package]]
+name = "ch12_errors"
+version = "0.1.0"
+
+[[package]]
+name = "ch13_generics"
+version = "0.1.0"
+
+[[package]]
+name = "ch14_tests"
 version = "0.1.0"
 
 [[package]]
@@ -34,32 +77,9 @@ version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "functions"
-version = "0.1.0"
-
-[[package]]
-name = "generics"
-version = "0.1.0"
-
-[[package]]
-name = "guessing_game"
-version = "0.1.0"
-dependencies = [
- "rand 0.3.22 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.43"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
-name = "modules"
-version = "0.1.0"
-
-[[package]]
-name = "ownership"
-version = "0.1.0"
 
 [[package]]
 name = "rand"
@@ -80,22 +100,6 @@ dependencies = [
  "libc 0.2.43 (registry+https://github.com/rust-lang/crates.io-index)",
  "winapi 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
-
-[[package]]
-name = "slices"
-version = "0.1.0"
-
-[[package]]
-name = "structs"
-version = "0.1.0"
-
-[[package]]
-name = "tests"
-version = "0.1.0"
-
-[[package]]
-name = "variables"
-version = "0.1.0"
 
 [[package]]
 name = "winapi"
