@@ -13,4 +13,5 @@ members = [
     "collections",
     "errors",
     "generics",
+    "tests",
 ]
