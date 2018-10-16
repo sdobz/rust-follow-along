@@ -1,4 +1,4 @@
-extern crate ch10_modules;
+extern crate ch07_modules;
 
 pub mod a {
     pub mod series {
@@ -19,7 +19,7 @@ use self::TrafficLight::{Red, Yellow};
 use self::a::series::of;
 
 fn main() {
-    ch10_modules::client::connect();
+    ch07_modules::client::connect();
 
     a::series::of::nested_modules();
     of::nested_modules();

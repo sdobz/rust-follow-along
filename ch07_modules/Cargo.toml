@@ -1,5 +1,5 @@
 [package]
-name = "ch08_structs"
+name = "ch07_modules"
 version = "0.1.0"
 authors = ["Vincent Khougaz <vincent@khougaz.com>"]
 edition = "2018"

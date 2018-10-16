@@ -1,5 +1,5 @@
 [package]
-name = "ch09_enums"
+name = "ch09_errors"
 version = "0.1.0"
 authors = ["Vincent Khougaz <vincent@khougaz.com>"]
 edition = "2018"

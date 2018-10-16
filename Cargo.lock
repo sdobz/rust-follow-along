@@ -15,51 +15,55 @@ dependencies = [
 ]
 
 [[package]]
-name = "ch03_variables"
+name = "ch03a_variables"
 version = "0.1.0"
 
 [[package]]
-name = "ch04_functions"
+name = "ch03b_functions"
 version = "0.1.0"
 
 [[package]]
-name = "ch05_branches"
+name = "ch03c_branches"
 version = "0.1.0"
 
 [[package]]
-name = "ch06_ownership"
+name = "ch04a_ownership"
 version = "0.1.0"
 
 [[package]]
-name = "ch07_slices"
+name = "ch04b_slices"
 version = "0.1.0"
 
 [[package]]
-name = "ch08_structs"
+name = "ch05_structs"
 version = "0.1.0"
 
 [[package]]
-name = "ch09_enums"
+name = "ch06_enums"
 version = "0.1.0"
 
 [[package]]
-name = "ch10_modules"
+name = "ch07_modules"
 version = "0.1.0"
 
 [[package]]
-name = "ch11_collections"
+name = "ch08_collections"
 version = "0.1.0"
 
 [[package]]
-name = "ch12_errors"
+name = "ch09_errors"
 version = "0.1.0"
 
 [[package]]
-name = "ch13_generics"
+name = "ch10_generics"
 version = "0.1.0"
 
 [[package]]
-name = "ch14_tests"
+name = "ch11_tests"
+version = "0.1.0"
+
+[[package]]
+name = "ch12_minigrep"
 version = "0.1.0"
 
 [[package]]

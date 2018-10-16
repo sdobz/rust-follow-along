@@ -1,5 +1,5 @@
 [package]
-name = "ch14_tests"
+name = "ch08_collections"
 version = "0.1.0"
 authors = ["Vincent Khougaz <vincent@khougaz.com>"]
 edition = "2018"
