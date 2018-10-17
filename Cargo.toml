@@ -16,4 +16,6 @@ members = [
     "ch10_generics",
     "ch11_tests",
     "ch12_minigrep",
+    "ch13a_functional",
+    "ch13b_minigrep2",
 ]
