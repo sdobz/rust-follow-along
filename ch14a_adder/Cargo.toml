@@ -1,0 +1,9 @@
+[package]
+name = "ch14a_adder"
+version = "0.1.0"
+authors = ["Vincent Khougaz <vincent@khougaz.com>"]
+edition = "2018"
+
+[dependencies]
+
+ch14b_add_one = { path = "../ch14b_add_one" }

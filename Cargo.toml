@@ -18,4 +18,6 @@ members = [
     "ch12_minigrep",
     "ch13a_functional",
     "ch13b_minigrep2",
+    "ch14a_adder",
+    "ch14b_add_one",
 ]

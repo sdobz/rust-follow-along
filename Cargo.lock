@@ -67,12 +67,26 @@ name = "ch12_minigrep"
 version = "0.1.0"
 
 [[package]]
-name = "ch13_functional"
+name = "ch13a_functional"
 version = "0.1.0"
 
 [[package]]
 name = "ch13b_minigrep2"
 version = "0.1.0"
+
+[[package]]
+name = "ch14a_adder"
+version = "0.1.0"
+dependencies = [
+ "ch14b_add_one 0.1.0",
+]
+
+[[package]]
+name = "ch14b_add_one"
+version = "0.1.0"
+dependencies = [
+ "rand 0.3.22 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "fuchsia-zircon"
