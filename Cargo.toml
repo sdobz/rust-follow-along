@@ -20,4 +20,5 @@ members = [
     "ch13b_minigrep2",
     "ch14a_adder",
     "ch14b_add_one",
+    "ch15_smartpointers",
 ]
