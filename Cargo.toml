@@ -22,4 +22,5 @@ members = [
     "ch14b_add_one",
     "ch15_smartpointers",
     "ch16_concurrency",
+    "ch17_objectoriented",
 ]
