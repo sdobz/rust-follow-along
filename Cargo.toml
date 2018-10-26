@@ -23,4 +23,5 @@ members = [
     "ch15_smartpointers",
     "ch16_concurrency",
     "ch17_objectoriented",
+    "ch18_patterns",
 ]
