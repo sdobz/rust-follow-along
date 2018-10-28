@@ -2,6 +2,6 @@
 name = "ch18_patterns"
 version = "0.1.0"
 authors = ["Vincent Khougaz <vincent@khougaz.com>"]
-edition = "2018"
+edition = "2015"
 
 [dependencies]
