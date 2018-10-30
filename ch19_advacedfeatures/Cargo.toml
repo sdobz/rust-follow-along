@@ -1,0 +1,6 @@
+[package]
+name = "ch19_advacedfeatures"
+version = "0.1.0"
+authors = ["Vincent Khougaz <vincent@khougaz.com>"]
+
+[dependencies]
